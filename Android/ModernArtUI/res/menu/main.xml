@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.coursera.ragudo.modernartui.MainActivity" >
+    <item android:id="@+id/more_info" android:title="@string/more_info" android:showAsAction="never" android:titleCondensed="@string/more_info"></item>
+
+</menu>

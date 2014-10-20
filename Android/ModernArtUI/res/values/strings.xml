@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ModernArtUI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="chooser_text">Select an application</string>
+    <string name="more_info">More information</string>
+    <string name="dialog_title">Inspired by Kazimir Malevich and Ben Nicholson</string>
+    <string name="dialog_description">Click below for more information</string>
+    <string name="not_now">Not Now</string>
+    <string name="visit_moma">Visit MoMa</string>
+
+</resources>
