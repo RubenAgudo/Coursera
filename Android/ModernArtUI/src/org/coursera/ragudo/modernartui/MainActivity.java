@@ -19,6 +19,9 @@ import android.widget.SeekBar;
 
 public class MainActivity extends Activity {
 
+	/**
+	 * @author Rubén Agudo
+	 */
 	private final String URL = "http://www.moma.org";
 	private final int COLOR_CHANGEABLE_VIEWS = 5;
 	private SeekBar seekBar;
