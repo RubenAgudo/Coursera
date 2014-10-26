@@ -16,6 +16,4 @@ Oh, and please, test it in portrait, I haven't created a landscape layout.
 Screencast
 ------------
 
-I have created a video where I show how the app works. You can view it here:
-
-    http://youtu.be/g1KKkJOkykg
+I have created a video where I show how the app works. You can view it here: http://youtu.be/g1KKkJOkykg
