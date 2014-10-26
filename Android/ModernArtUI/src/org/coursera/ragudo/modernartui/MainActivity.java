@@ -1,13 +1,15 @@
 package org.coursera.ragudo.modernartui;
 
+import java.util.List;
 import java.util.Random;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -130,9 +132,13 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				//Implictly call a browser
+				PackageManager packageManager = getPackageManager();
+				
 				Intent baseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
-				Intent chooserIntent = Intent.createChooser(baseIntent, getString(R.string.chooser_text));
-				startActivity(chooserIntent);
+				List<ResolveInfo> activities = packageManager.queryIntentActivities(baseIntent, 0);
+				if(activities.size() > 0) {
+					startActivity(baseIntent);					
+				}
 			}
 		});
 		dialog.setCancelable(true);
