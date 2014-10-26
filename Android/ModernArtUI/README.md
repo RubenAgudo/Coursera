@@ -16,7 +16,6 @@ Oh, and please, test it in portrait, I haven't created a landscape layout.
 Screencast
 ------------
 
-I have created a video where I show how the app works. There is a glitch with my graphics car in Ubuntu, leading to a 
-weird dialog. The link is:
+I have created a video where I show how the app works. You can view it here:
 
-    youtube.com
+    http://youtu.be/g1KKkJOkykg
