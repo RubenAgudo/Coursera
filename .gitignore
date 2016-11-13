@@ -26,3 +26,6 @@ proguard/
 *.project
 *.properties
 .settings/
+
+#bower
+bower_components/

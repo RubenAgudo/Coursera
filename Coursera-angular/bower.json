@@ -1,0 +1,25 @@
+{
+  "name": "Coursera-angular",
+  "authors": [
+    "Rubén Agudo <rubenagudo21@gmail.com>"
+  ],
+  "description": "Programming assignments for the Angular Coursera course https://www.coursera.org/learn/single-page-web-apps-with-angularjs/home",
+  "main": "index.html",
+  "keywords": [
+    "angularjs",
+    "angular",
+    "coursera"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/RubenAgudo/Coursera/Angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8"
+  }
+}
