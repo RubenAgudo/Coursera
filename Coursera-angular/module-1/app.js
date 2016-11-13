@@ -23,6 +23,7 @@
 
       if(items.length == 0) {
         $scope.resultMessage = "Input something first";
+        $scope.class = 'red';
         return;
       }
 
@@ -39,6 +40,8 @@
       } else {
         $scope.resultMessage = "Too much!";
       }
+
+      $scope.class = 'green';
 
     };
 
